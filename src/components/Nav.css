@@ -1,0 +1,45 @@
+/* Default transparent navbar */
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-transparent.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar-transparent .navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.navbar-transparent {
+  margin: 0px 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hover effect for the navbar links */
+.navbar-transparent .navbar-nav .nav-link:hover {
+  color: #007bff !important;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-transparent .navbar-nav .nav-link.active {
+  color: #007bff !important;
+}
+
+/* Adjust spacing and positioning */
+.navbar-transparent .navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+  .navbar-transparent .navbar-nav {
+    margin-top: 10px;
+  }
+}
