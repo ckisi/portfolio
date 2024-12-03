@@ -29,18 +29,18 @@ const CustomNav = () => {
       variant="light"
       className={`navbar-transparent ${scrolling ? 'navbar-scrolled' : ''}`}
     >
-      <Navbar.Brand href="#" className="fs-1 fw-bold">Cole Kisielius</Navbar.Brand>
+      <Navbar.Brand href="/" className="fs-1 fw-bold">Cole Kisielius</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNav" />
       <Navbar.Collapse id="navbarNav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Link className="nav-link" to="#portfolio">Portfolio</Link>
+            <Link className="nav-link" to="/portfolio">Portfolio</Link>
           </Nav.Item>
           <Nav.Item>
-            <Link className="nav-link" to="#contact">Contact Me</Link>
+            <Link className="nav-link" to="/contactMe">Contact Me</Link>
           </Nav.Item>
           <Nav.Item>
-            <Link className="nav-link" to="#resume">Resume</Link>
+            <Link className="nav-link" to="/resume">Resume</Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
